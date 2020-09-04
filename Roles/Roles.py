@@ -1,10 +1,10 @@
 def managertask():
     print("task for manager")
     return managertask.__name__
-def developertast():
+def developertask():
         print("task for developer")
 
-def testettask():
+def testertask():
         print("task for tester")
 
 def marketingtask():
@@ -13,8 +13,8 @@ def marketingtask():
 
 roleandtask={
     'manager':"managertask",
-    'developer':"developertast",
-    'tester':"testettask",
+    'developer':"developertask",
+    'tester':"testertask",
     'marketing':"marketingtask"    
     }   
 users=[]
