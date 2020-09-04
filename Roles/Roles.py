@@ -18,7 +18,7 @@ roleandtask={
     'marketing':"marketingtask"    
     }   
 users=[]
-roles=["Manager","developer","tester","marketingmanager"]
+roles=["manager","developer","tester","marketing"]
 class User:
     def __init__(self, _name_, _surname_,_username_,_password_,_role_):
      self.name=_name_
